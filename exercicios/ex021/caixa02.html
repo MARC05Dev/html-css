@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body  {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        
+        }
+        header {
+           background-color:  white;
+           padding: 10px;
+           margin: 10px;
+           box-shadow: 4px 4px 4px rgb(22, 22, 22);
+           border-radius: 10px;
+
+
+        }
+
+        header:hover{
+            background-color: rgb(20, 20, 20);
+            font-size: 20px;
+            color: white;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 10px;
+            width: 330px;
+            font-size: 15px;
+            box-shadow: 2px 2px 2px rgb(54, 54, 54);
+            border-radius: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+
+        nav:hover {
+            background-color: darkred;
+            padding: 15px;
+            box-shadow: 3px 3px 3px rgb(134, 27, 27);
+        }
+
+        nav > a:hover {
+            font-size: 17px;
+            color: blue;
+           
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 4px rgb(22, 22, 22);
+            border-radius: 10px;
+
+        }
+
+        #assuntos > p {
+            font-family: Arial, Helvetica, sans-serif;
+            width: bolder;
+            
+        }
+
+        article {
+            height: 100%;
+            background-color: lightgray;
+            padding: 10px;
+            box-shadow: 3px 3px 3px rgb(75, 75, 75);
+            border-radius: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+            padding: 5px;
+            box-shadow: 3px 3px 3px rgb(75, 75, 75);
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu site</h1>
+        <nav>
+            <a href="#"Link>Link</a>
+            <a href="#"Link>Link</a>
+            <a href="#"Link>Link</a>
+            <a href="#"Link>Link</a>
+            <a href="#"Link>Link</a>
+         </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes e Tecnologia</p>
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolorem quaerat facere molestiae laborum dolorum nostrum cum omnis eius! Dicta autem voluptatibus in hic eligendi ut magni sunt id ratione.</p>
+                <aside>
+                    <p>Artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Teste de imagens dinamicas</h1>
+    <p>esse é o meu teste de imagens dinamicas</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/eu-sou-o-mob-300px.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/eu-sou-o-mob-700px.jpg" type="image/jpg">
+        <img src="imagens/eu-sou-o-mob-1000px.jpg" alt=" imagem flexivel">
+
+</picture>
+    
+</body>
+</html>

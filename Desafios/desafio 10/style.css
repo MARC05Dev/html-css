@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color:#84e4ac;
+    text-align: center;
+} 
+.cabecalho {
+    padding: 11px;
+    background-image: linear-gradient(to top, #1b5733,#3bd27e);
+    margin:-8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    box-shadow: 3px 3px 3px #0000005e;
+    border: 0px 0px 1px 0px solid red;;
+}
+
+.cabecalho > h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px #000000a6;
+}
+
+.cabecalho > p {
+    text-align: center;
+    padding: 10px 50px ;
+    color: white;
+    text-shadow: 1px 1px 2px #000000a6;
+}
+
+.cabecalho > a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+#espaço {
+    margin: 0px 5px 0px 5px;
+}
+
+.cabecalho > a:hover {
+    background-color: #3bd27f77;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.principal1 {
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    background-color: white;
+    padding: 10px 25px;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+    box-shadow: inset 0px 3px 0px rgba(65, 65, 65, 0.315);
+}
+
+.principal1 {
+    text-align: justify;
+}
+
+main > h1 {
+    color: #1b5733;
+    font-family: 'idroid';
+    margin: 10px 0px;
+    font-size: 30px;
+    text-align: left;
+}
+
+main > h2 {
+    color: #1b5733;
+    background-image: linear-gradient(to right, #43d67e5b,white);
+    font-family: 'idroid';
+    text-align: left;
+}
+
+.principal1 > p > a {
+    color: #1b5733;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.principal1 > p {
+    text-indent: 20px;
+}
+
+.div2 {
+    text-align: left;
+    border: 30px;
+}
+
+.div2 > p {
+    block-size: inherit;
+}
+
+.principal2 {
+    background-color: #3bd27e;
+    border-radius: 10px;
+}
+
+.extrazito {
+    background-color: darkgreen;
+    max-width: 300px;
+}
+
+picture > img {
+    text-align: justify;
+}
+
+#par {
+    font: 30px bolder green;
+    font-weight: bolder;
+    display: i;
+    border: 1px 1px 1px 1px;
+}
+
+footer {
+    background: fixed black;
+    margin: -8px;
+}
+
+footer > p {
+    color: white;
+}
