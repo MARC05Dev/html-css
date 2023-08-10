@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15pt;
+}
+
+p {
+    font-size: 10pt;
+    margin-bottom: -10px;
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+    background: linear-gradient(90deg, #0868b2, #2563eb, #4f46e5);
+}
+
+.corpo1 {
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    border-radius: 10px;
+    width: 300px;
+    height: 280px;
+}
+
+.corpo {
+    position: relative;
+    display: inline-block;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    transition: 2s;
+}
+
+.corpo:hover {
+    height: 320px;
+}
+
+.rocket img {
+    position: absolute;
+    display: flex;
+    margin:50px 0px 45px 50px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    transition:1s;
+    
+}
+
+.lua img {
+    position: absolute;
+    margin:50px 0px 45px 50px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.corpo:hover .rocket img{
+    margin: -100px -10px 100px 300px;
+    width: 50px;
+    height: 50px;
+    transition: 5s;
+}
+
+.corpo1:hover .lua img {
+    display: flex;
+    margin: -100px -10px 0px 300px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.corpo .text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 17px;
+    top: 220px;
+    padding: 0px 30px;
+    height: 50px;
+    margin: 0px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.corpo:hover .text {
+    top: 10px;
+    height: 300px;
+    transition: 5s;
+}
+
+a {
+    
+    display: block;
+    background-color: #0868b2;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.438);
+}
+
+
